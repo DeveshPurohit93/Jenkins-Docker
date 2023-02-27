@@ -1,5 +1,5 @@
 # Jenkins-Docker
 ```mermaid
 graph TD;
-developer --> github --> webhook triggered --> Jenkins --> Dockerfile --> Docker image build --> pushed to docker hub --> pulled by production server;
+developer-->github-->webhook_triggered-->Jenkins-->Dockerfile-->Docker_image_build-->pushed_docker_hub-->pulled_by_production_server;
 ```
